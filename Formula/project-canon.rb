@@ -1,8 +1,8 @@
 class ProjectCanon < Formula
   desc "Conformance tool for the AI-first CLI and project family"
   homepage "https://github.com/jarimustonen/project-canon"
-  url "https://github.com/jarimustonen/project-canon/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "7823165006c80debf241e0e3adc4ac6573bc273f85c91c9d9f2e6dabc50ffb25"
+  url "https://github.com/jarimustonen/project-canon/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "c245442d234dd143058d0310e53b1b599ea28734e089b6bcd40bcfe06ba0dc49"
   license "MIT"
 
   depends_on "rust" => :build
