@@ -1,19 +1,19 @@
 class ProjectCanon < Formula
   desc "The project-canon binary — conformance verbs plus binary-owned distribution of the AI-first CLI canon and companion cli-canon skill."
   homepage "https://github.com/jarimustonen/project-canon"
-  version "0.9.1"
+  version "0.9.2"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/jarimustonen/project-canon/releases/download/v0.9.1/project-canon-cli-aarch64-apple-darwin.tar.xz"
-    sha256 "3a7b683e947f8d6ef583b859a18c28a6f49e5f6f5c3dbd5a73b2cbdd99173c98"
+    url "https://github.com/jarimustonen/project-canon/releases/download/v0.9.2/project-canon-cli-aarch64-apple-darwin.tar.xz"
+    sha256 "a9ab066df4461c8989558dc59b0870632f63f717b132b4b1f4df454c231e17e0"
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jarimustonen/project-canon/releases/download/v0.9.1/project-canon-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "d81ff1dd19e78021babbbd68d4f5016af4ed77e6de277b37bb37c1daae95ccd8"
+      url "https://github.com/jarimustonen/project-canon/releases/download/v0.9.2/project-canon-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "f84e7258fda07cd480d019a3d4a15b13f7cc78d2a56bc6d671229f06645124d3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jarimustonen/project-canon/releases/download/v0.9.1/project-canon-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "5deccc620a5544a2347db030e70f80de44e481e407f967773db15c205843babd"
+      url "https://github.com/jarimustonen/project-canon/releases/download/v0.9.2/project-canon-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "061fddfb32f631e600f899fc8455465498e6c78c0e8c74fd6e58b293df6b6ed6"
     end
   end
   license "MIT"
